@@ -11,21 +11,25 @@ html,body {
 }; 
 
 .btn-main {
-    background: linear-gradient(9.28deg, #F7618B -6.19%, #2A7AFF 135.42%);
+    // background: linear-gradient(9.28deg, #F7618B -6.19%, #2A7AFF 135.42%);
+    background-image: linear-gradient(to right, #6a11cb -10%, #2575fc 100%);
+    border: none;
     border-color: transparent;
     border-radius: 6.25rem;
-    padding: .5rem;
+    padding: .9rem;
     cursor: pointer;
     color: white;
     outline: none;
 
     &:hover {
         transition: .3s;
-        background: linear-gradient(9.28deg, rgb(241, 116, 151) -6.19%, rgb(73, 139, 245) 135.42%);
+        background-image: linear-gradient(to right, #7934c4 -10%, #4c8cfa 100%);
+        border: none;
 
     }
 
     &:focus {
         outline: none;
     }
+
 }

@@ -29,6 +29,10 @@
         padding: 1rem;
             img {
                 cursor: pointer;
+
+                &:active {
+                    transform: translateY(4px);
+                }
             }
         
     }

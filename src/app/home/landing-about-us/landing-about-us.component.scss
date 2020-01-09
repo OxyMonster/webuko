@@ -2,6 +2,7 @@
 
 
 .about-us {
+    border-bottom: 1px solid $dark-grey;
  &__box {
         margin-top: 5rem; 
 
@@ -44,8 +45,6 @@
                 
             }
          }
-       
-                
      }
  }
 }
