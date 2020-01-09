@@ -6,12 +6,11 @@ html,body {
     width: 100%;
     min-height: 100%;
     font-family: 'Montserrat', sans-serif;
-    // background-color: #102131;
+    background-color: #102131;
 
 }; 
 
 .btn-main {
-    // background: linear-gradient(9.28deg, #F7618B -6.19%, #2A7AFF 135.42%);
     background-image: linear-gradient(to right, #6a11cb -10%, #2575fc 100%);
     border: none;
     border-color: transparent;
@@ -22,9 +21,9 @@ html,body {
     outline: none;
 
     &:hover {
+        transition: .4s;
         background-image: linear-gradient(to right, #7934c4 -10%, #4c8cfa 100%);
         border: none;
-
     }
 
     &:focus {

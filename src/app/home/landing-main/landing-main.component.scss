@@ -8,6 +8,13 @@
             line-height: 4.25rem;
             margin-top: 6rem;
         }
+
+        &__button {
+            @media (max-width: 794px) {
+                justify-content: center;
+
+            }
+        }
     }
     
     &__img {
