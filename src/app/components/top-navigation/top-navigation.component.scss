@@ -14,5 +14,11 @@
                 transition: .3s;
             }
         }
+
+        @media (max-width: 794px) {
+            li {
+                display: none;
+            }
+        }
     }
 }

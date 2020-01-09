@@ -20,7 +20,9 @@
             -webkit-animation: mover 2s infinite  alternate;
             animation: mover 2s infinite  alternate;
             
-
+            @media (max-width: 794px) {
+                display: none;
+            }
         }
     }
 
