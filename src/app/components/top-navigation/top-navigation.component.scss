@@ -1,0 +1,17 @@
+@import '../../../assets/variables.scss'; 
+
+.navigation {
+    ul {
+        li {
+            color: $grey;
+            list-style-type: none;
+            cursor: pointer;
+            white-space: nowrap;
+
+            &:hover {
+                color: $white;
+                transition: .3s;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import '../assets/variables.scss';
+
+.app {
+    background-color: $main-black;
+
+    .header {
+       
+        img {
+            width: 10rem;
+            height: 5rem;
+            cursor: pointer;
+        }
+    }
+}
+
