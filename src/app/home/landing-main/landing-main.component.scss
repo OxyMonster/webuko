@@ -26,6 +26,7 @@
             height: 100%;
             -webkit-animation: mover 2s infinite  alternate;
             animation: mover 2s infinite  alternate;
+    
             
             @media (max-width: 794px) {
                 display: none;
@@ -33,7 +34,7 @@
         }
     }
 
-    &__social{
+    &__social {
         border-bottom: 1px solid #274058;
         padding: 1rem;
             img {
@@ -41,6 +42,7 @@
 
                 &:active {
                     transform: translateY(4px);
+
                 }
             }
         
