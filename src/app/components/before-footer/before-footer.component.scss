@@ -13,15 +13,18 @@
     &__menu {
         ul {
             li {
-                color: $light-grey;
                 list-style: none;
-                font-size: 1rem;
-                cursor: pointer;
-                line-height: 2rem;
-
-                &:hover {
-                    color: $white;
-                    transition: .3s;
+                a {
+                    color: $light-grey;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    line-height: 2rem;
+                    text-decoration: none;
+    
+                    &:hover {
+                        color: $white;
+                        transition: .3s;
+                    }
                 }
             }
         }
@@ -57,4 +60,9 @@
         }
     }
 
+}
+
+.active {
+    color: $white !important;
+    border-bottom: 1px solid $white;
 }
