@@ -7,13 +7,21 @@ import { SharedModule } from './shared/shared.module';
 import { CommonModule } from '@angular/common';
 import { HomeModule } from './home/home.module';
 import { BeforeFooterComponent } from './components/before-footer/before-footer.component';
+import { OurServicesComponent } from './our-services/our-services.component';
+import { OurServicesModule } from './our-services/our-services.module';
+import { ContactComponent } from './contact/contact.component';
+import { ContactModule } from './contact/contact.module';
+import { OrderComponent } from './order/order.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 // import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BeforeFooterComponent,
-    // FooterComponent,
+    OrderComponent,
+    AboutUsComponent,
+
 
   ],
   imports: [
@@ -21,7 +29,9 @@ import { BeforeFooterComponent } from './components/before-footer/before-footer.
     AppRoutingModule,
     CommonModule,
     SharedModule, 
-    HomeModule
+    HomeModule,
+    OurServicesModule,
+    ContactModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]

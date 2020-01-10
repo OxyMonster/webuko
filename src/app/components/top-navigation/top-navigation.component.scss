@@ -4,14 +4,18 @@
     
     ul {
         li {
-            color: $grey;
             list-style-type: none;
-            cursor: pointer;
-            white-space: nowrap;
+            a {
+                color: $grey;
+                cursor: pointer;
+                white-space: nowrap;
+                text-decoration: none;
 
-            &:hover {
-                color: $white;
-                transition: .3s;
+                &:hover {
+                    color: $white;
+                    transition: .3s;
+                }
+
             }
         }
 
@@ -22,3 +26,7 @@
         }
     }
 }
+
+.active {
+    color: white !important;
+} 
