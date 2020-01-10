@@ -1,0 +1,60 @@
+@import '../../../assets/variables.scss';
+.footer {
+    &__language {
+        .language-box {
+            background: url('../../../assets/images/Path.png') no-repeat;
+            color: $white;
+            margin-right: 1rem;
+        }
+        p {
+                color: #2A4560;
+        }
+    }
+    &__menu {
+        ul {
+            li {
+                color: $light-grey;
+                list-style: none;
+                font-size: 1rem;
+                cursor: pointer;
+                line-height: 2rem;
+
+                &:hover {
+                    color: $white;
+                    transition: .3s;
+                }
+            }
+        }
+    }
+
+    &__location-contact {
+        &__location {
+            p {
+                color: #2A4560;
+                font-size: .875rem;
+            }
+            i {
+                color: #677897;
+                font-size: 1.2rem;
+                margin-right: 1.5rem;
+            }
+        }
+
+        &__contact {
+            .social-box {
+                border-radius: 50%;
+                padding: .4rem;
+                background-color: $grey;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                i {
+                    color: $main-black;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,15 @@
+@import '../../../assets/variables.scss';
+
+.footer__line {
+    background-color: #1F2B44;
+    &__logo {
+        img {
+            width: 6rem;
+            height: 3rem;
+        }
+    }
+    span {
+        color: $light-grey;
+        font-size: .875rem;
+    }
+}

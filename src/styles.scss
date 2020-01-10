@@ -24,7 +24,7 @@ html,body {
 
 
     &:hover {
-        transition: .4s;
+        // transition: .4s;
         background-image: linear-gradient(to right, #7934c4 -10%, #4c8cfa 100%);
         border: none;
     }
@@ -32,5 +32,10 @@ html,body {
     &:focus {
         outline: none;
     }
+
+    // &:active {
+    //     transform: translateY(4px);
+
+    // }
 
 }

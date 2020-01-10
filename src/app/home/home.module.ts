@@ -3,18 +3,22 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { LandingMainComponent } from './landing-main/landing-main.component';
 import { LandingAboutUsComponent } from './landing-about-us/landing-about-us.component';
+import { SliderComponent } from './slider/slider.component';
 
 
 const COMPONENTS = [
-  HomeComponent
-
+    HomeComponent,
+    LandingMainComponent,
+    LandingAboutUsComponent,
+    SliderComponent
 ]
 
 @NgModule({
   declarations: [
     HomeComponent,
     LandingMainComponent,
-    LandingAboutUsComponent
+    LandingAboutUsComponent,
+    SliderComponent
   ],
   imports: [
     CommonModule
