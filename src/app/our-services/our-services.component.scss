@@ -17,7 +17,7 @@
         }
 
         &__box {
-            margin-top: 5.5rem;
+            // margin-top: .5rem;
             &__text {
                 margin-top: 6rem;
                 h4 {
@@ -40,10 +40,24 @@
             &__image {
                 align-items: center;
                 img {
+                    margin-top: 4rem;
                     width: 80%;
                     height: 100%;
                 }
             }
+        }
+
+        &__order {
+            text-align: center;
+            &__title{
+                h4 {
+                    font-size: 2.25rem;
+                    color: $white;
+                    border-bottom: 1px solid $white;
+                    padding-bottom: 1.5rem;
+                }
+            }
+
         }
     }
 }
