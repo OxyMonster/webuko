@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  isSubmited: boolean = false; 
+
   constructor() { }
 
   ngOnInit() {
+
+  }
+
+  onSubmit() {
+    this.isSubmited = true; 
+    return false;
   }
 
 }
