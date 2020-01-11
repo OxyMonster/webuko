@@ -15,9 +15,15 @@
      }
  
      &__text {
+        @media (max-width: 794px) {
+            border-bottom: 1px solid $cool-grey;
+        }
          h4 {
              color: $white;
              font-size: 2rem;
+             @media (max-width: 794px) {
+                margin-top: 3rem;
+            }
  
          }
          p {
@@ -42,12 +48,15 @@
                 width: 55%;
                 height: 55%;
                 transform: rotate(-45deg);
+                @media (max-width: 794px) {
+                    display: none;
+                }
                 
             }
 
             @media (max-width: 794px) {
-                width: 13rem;
-                height: 13rem;
+                display: none !important;
+
             }
          }
      }
