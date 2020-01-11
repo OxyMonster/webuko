@@ -1,0 +1,19 @@
+{
+    "navigation" : {
+        "Home": "Home",
+        "Services": "Services",
+        "About us": "About us",
+        "Order": "Order",
+        "Contact": "Contact"
+    },
+
+    "buttons": {
+        "Get early access": "Get early access"
+    }, 
+
+    "Landing-main" : {
+        "Do you want to": "Do you want to",
+        "impress your clients ?": "impress your clients ?"
+
+    }
+}

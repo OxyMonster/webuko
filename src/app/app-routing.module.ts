@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'order', component: OrderComponent},
   { path: '404', component: NotfoundComponent },
   { path: '**', redirectTo: '/404' }
-  // { path: '/about-us', component: HomeComponent },
+
 ];
 
 @NgModule({

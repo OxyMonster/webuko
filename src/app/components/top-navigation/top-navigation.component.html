@@ -2,27 +2,27 @@
     <ul class="d-flex justify-cotnent-between">
         <li class="col-lg" >
             <a [routerLink]="['/home']" routerLinkActive="active" >
-                Home
+                {{ 'navigation.Home' | translate }}
             </a>
         </li>
         <li class="col-lg">
             <a [routerLink]="['services']" routerLinkActive="active" >
-                Services
+                {{ 'navigation.Services' | translate }}
             </a>
         </li >
         <li class="col-lg">
             <a [routerLink]="['about-us']" routerLinkActive="active" >
-                About us
+                {{ 'navigation.About us' | translate }}
             </a>
         </li>
         <li class="col-lg">
             <a [routerLink]="['order']" routerLinkActive="active" >
-                Order
+                {{ 'navigation.Order' | translate }}
             </a> 
         </li>
         <li class="col-lg">
             <a [routerLink]="['contact']" routerLinkActive="active" >
-                Contact
+                {{ 'navigation.Contact' | translate }}
             </a>
         </li>
     </ul>

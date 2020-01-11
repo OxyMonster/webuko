@@ -1,0 +1,19 @@
+{
+    "navigation" : {
+        "Home": "მთავარი",
+        "Services": "სერვისები ",
+        "About us": "ჩვენს შესახებ",
+        "Order": "შეკვეთა",
+        "Contact": "კონტაქტი"
+    },
+
+    "buttons": {
+        "Get early access": "დაგვიკავშირდით"
+    }, 
+
+    "Landing-main" : {
+        "Do you want to": "გსურთ მოახდინოთ" ,
+        "impress your clients ?": " შთაბეჭდილება თქვენს კლიენტებზე ?"
+
+    }
+}

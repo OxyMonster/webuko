@@ -5,7 +5,15 @@ import { TopNavigationComponent } from '../components/top-navigation/top-navigat
 import { FooterComponent } from '../components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from '../app-routing.module';
+import { HttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
+
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 const COMPONENTS = [
   FooterComponent,
   TopNavigationComponent
@@ -20,6 +28,13 @@ const COMPONENTS = [
     CommonModule, 
     NgbModule,
     RouterModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
     // AppRoutingModule
   
   ], 
