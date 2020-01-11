@@ -1,0 +1,52 @@
+@import '../../assets/variables.scss'; 
+
+.about-us {
+    &__content {
+        &__title {
+            text-align: center;
+            h4 {
+                font-size: 2.25rem;
+                color: $light-grey;
+            }
+
+            p {
+                font-size: 1rem;
+                color: $light-grey;
+            }
+        }
+        &__main {
+            &__image { 
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            &__description {
+
+                h4 {
+                    color: $white;
+                    text-align: center;
+                    border-bottom: 1px solid $cool-grey; 
+                    padding-bottom: 1rem;
+                }
+                p {
+                    margin-top: 2rem;
+                    color: $light-grey;
+                }
+                
+                &__button {
+                    &__title {
+                        h3 {
+                            // color: $light-grey;
+                            color: $red;
+                            font-size: 1.5rem;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

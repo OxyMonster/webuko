@@ -15,5 +15,18 @@
         "Do you want to": "გსურთ მოახდინოთ" ,
         "impress your clients ?": " შთაბეჭდილება თქვენს კლიენტებზე ?"
 
+    },
+
+    "Contact" : {
+        "How can we help?" : "რით შეგვიძლია დაგეხმაროთ ?", 
+        "Fill the form below to discuss how Webuko can help with your ambitious software needs!": "შეავსეთ ფორმა, რა ფორმით შეგვიძლია ავასრულოთ თქვენი ამბიციური მოთხოვნები",
+        "Let's Talk": "Let's Talk",
+        "Contact Email": "საკონტაქტო იმეილი",
+        "Contact Phones": "საკონტაქტო ტელეფონები", 
+         "Location": "ლოკაცია",
+         "We'd love to hear from you!": "We'd love to hear from you!", 
+         "Tbilisi": "თბილისი",
+         "Georgia": "საქართველო"
+
     }
 }

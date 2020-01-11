@@ -8,12 +8,26 @@
     },
 
     "buttons": {
-        "Get early access": "Get early access"
+        "Get early access": "Get early access",
+        "Submit": "Submit"
     }, 
 
     "Landing-main" : {
         "Do you want to": "Do you want to",
         "impress your clients ?": "impress your clients ?"
+
+    },
+
+    "Contact" : {
+        "How can we help?" : "How can we help?", 
+        "Fill the form below to discuss how Webuko can help with your ambitious software needs!": "How can we help?",
+        "Let's Talk": "Let's Talk",
+        "Contact Email": "Contact Email",
+        "Contact Phones": "Contact Phones", 
+         "Location": "Location",
+         "We'd love to hear from you!": "We'd love to hear from you!", 
+         "Tbilisi": "Tbilisi",
+         "Georgia": "Georgia"
 
     }
 }
