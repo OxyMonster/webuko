@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ContactModule } from './contact/contact.module';
 import { OrderComponent } from './order/order.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
 // import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
@@ -21,6 +22,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     BeforeFooterComponent,
     OrderComponent,
     AboutUsComponent,
+    NotfoundComponent,
 
 
   ],
