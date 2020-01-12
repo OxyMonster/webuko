@@ -1,14 +1,14 @@
 <div class="content row d-flex justify-content-between align-items-center">
     <div class="content__text col-md-6">
             <div class="col-12">
-                <h4 [ngClass]="{'geo-fontsize': isGoergian}">
+                <h4>
                     {{ 'Landing-main.Do you want to' | translate }} <br>
                     {{ 'Landing-main.impress your clients ?' | translate }}
 
                 </h4>
             </div>
             <div class="content__text__button col-12 d-flex mt-4">
-                <button class="btn-main"> {{ 'buttons.Get early access' | translate }} </button>
+                <button class="btn-main" (click)="onNavigate()"> {{ 'buttons.See our services' | translate }} </button>
             </div>
     </div>
     <div class="content__img col-md-5">  

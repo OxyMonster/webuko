@@ -48,13 +48,13 @@
                 width: 55%;
                 height: 55%;
                 transform: rotate(-45deg);
-                @media (max-width: 794px) {
+                @media (max-width: 768px) {
                     display: none;
                 }
                 
             }
 
-            @media (max-width: 794px) {
+            @media (max-width: 768px) {
                 display: none !important;
 
             }

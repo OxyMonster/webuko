@@ -8,6 +8,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { ModalComponent } from '../components/modal/modal.component';
 
 
 
@@ -16,17 +17,19 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 const COMPONENTS = [
   FooterComponent,
-  TopNavigationComponent
+  TopNavigationComponent,
+  ModalComponent
 ]
 
 @NgModule({
   declarations: [
     TopNavigationComponent,
-    FooterComponent
+    FooterComponent,
+    ModalComponent
   ],
   imports: [
     CommonModule, 
-    NgbModule,
+    NgbModule, 
     RouterModule,
     TranslateModule.forRoot({
       loader: {
