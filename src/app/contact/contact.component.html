@@ -1,6 +1,6 @@
 <div class="contact dark-content pb-5 row mt-5 p-4">
     <div class="contact__title col-12 mt-3">
-        <!-- <h4> {{ 'Contact.How can we help?' | translate }} </h4> -->
+        <h4> How can we help?' </h4>
         <p class="mt-3">
             Fill the form below to discuss how Webuko can help with 
             your ambitious software needs!
@@ -31,7 +31,7 @@
         <div class="dark-content h-100 pl-5">
             <div class="contact__form__title mt-4">
                 <h4 *ngIf="!isSubmited">We'd love to hear from you!</h4>
-                <h4 *ngIf="isSubmited">Thank you!</h4>
+                <h4 class="submitted" *ngIf="isSubmited">Thank you!</h4>
                 <p *ngIf="isSubmited">Your message has been received!</p>
             </div>
             <div class="" *ngIf="!isSubmited; else submitedContent">

@@ -24,6 +24,9 @@
 
             &__description {
 
+                &__effect {
+                    
+                }
                 h4 {
                     color: $white;
                     text-align: center;
@@ -33,7 +36,7 @@
                 p {
                     margin-top: 2rem;
                     color: $light-grey;
-                }
+                }     
                 
                 &__button {
                     &__title {
@@ -42,6 +45,12 @@
                             color: $red;
                             font-size: 1.5rem;
                             text-align: center;
+                            letter-spacing: .3rem;
+                        }
+
+                        div { 
+                            
+                        }
                         }
                     }
                 }
@@ -49,4 +58,3 @@
         }
     }
 
-}
