@@ -8,8 +8,13 @@
     },
 
     "buttons": {
-        "See our services": "იხილეთ ჩვენი სერვისები"
+        "See our services": "იხილეთ ჩვენი სერვისები",
+        "Choose Plan": "არჩევა",
+        "lets-talk": "დაკავშირება"
     }, 
+
+
+
 
     "Landing-main" : {
         "Do you want to": "გსურთ მოახდინოთ" ,
@@ -17,12 +22,46 @@
 
     },
 
+    "Landing-about-us": {
+        "main-title": "რას ვაკეთებთ ჩვენ, იმისათვის რომ თქვენ წარმატებას მიაღწიოთ ?", 
+        "tit-1": "დიზაინი (UI/UX)", 
+        "des-1": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!",
+        "tit-2": "დეველოპმენტი",
+        "des-2": "We create the good-looking and functional websites using the latest and greatest industry technologies and approaches.Whatever your business is, Webuko can create a stunning and intuitive website that will impress your customers and attract new ones. Moreover, your site will be created using best practices for search engines.",
+        "tit-3": "ჰიბრიდული აპლიკაციები", 
+        "des-3": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "tit-4": "საძიებო სისტემებთან ოპტიმიზაცია (Seo)",
+        "des-4": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "tit-5": "სოციალური ქსელების ადმინისტრაცია",
+        "des-5": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!"
+    },
+
+    "Landing-packages": {
+        "main-tit": "დაინტერესდით ? გთხოვთ აირჩიოთ სასურველი პაკეტი", 
+        "main-des":  "They are people and organizations with ambitious missions. They want to unleash the power of software for their cause or business. We help them envisage, design, and deliver.", 
+        "tit-1": "მინი",
+        "tit-2": "პროფესიონალი", 
+        "tit-3": "პრემიუმი"
+    },
+
+
+
+    "About-us": {
+        "main-tit": "ჩვენ ვებ სამყაროს ვქმნით უკეთესს !", 
+        "main-des": "We build top-notch web & mobile solutions using the latest technology and our superior expertise to enhance your business growth.",
+        "about-us": "ჩვენს შესახებ", 
+        "about-us-des": "We are a startap team of talented professionals. We are technology maniacs and always work with proven stack of technologies. During last 5 years we worked exclusively in MEAN stack and gained a tremendous amount of experience in these technologies. We don’t stop learning: we use new technologies as a learning tool, not just because it's 'just a cool new thing'",
+        "Want to work with us ?": "გახდით ჩვენი გუნდის წევრი ?"
+
+    }, 
+
+
     "Contact" : {
         "How can we help?" : "რით შეგვიძლია დაგეხმაროთ ?", 
-        "Fill the form below to discuss how Webuko can help with your ambitious software needs!": "შეავსეთ ფორმა, რა ფორმით შეგვიძლია ავასრულოთ თქვენი ამბიციური მოთხოვნები",
-        "Let's Talk": "Let's Talk",
-        "Contact Email": "საკონტაქტო იმეილი",
-        "Contact Phones": "საკონტაქტო ტელეფონები", 
+        "main-des": "Fill the form below to discuss how Webuko can help with your ambitious software needs!",
+        "Lets-Talk": "Let's Talk",
+        "Contact Email": "იმეილი",
+        "Contact Phones": "ტელეფონები", 
          "Location": "ლოკაცია",
          "We'd love to hear from you!": "We'd love to hear from you!", 
          "Tbilisi": "თბილისი",

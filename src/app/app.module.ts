@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SharedModule } from './shared/shared.module';
+// import { SharedModule } from './shared/shared.module';
 import { CommonModule } from '@angular/common';
 import { HomeModule } from './home/home.module';
 import { BeforeFooterComponent } from './components/before-footer/before-footer.component';
@@ -15,6 +15,13 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TopNavigationComponent } from './components/top-navigation/top-navigation.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { LandingMainComponent } from './home/landing-main/landing-main.component';
+import { LandingAboutUsComponent } from './home/landing-about-us/landing-about-us.component';
+import { SliderComponent } from './home/slider/slider.component';
+import { ContactComponent } from './contact/contact.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -27,6 +34,14 @@ export function HttpLoaderFactory(http: HttpClient) {
     OrderComponent,
     AboutUsComponent,
     NotfoundComponent,
+    TopNavigationComponent,
+    FooterComponent,
+    HomeComponent,
+    LandingMainComponent,
+    LandingAboutUsComponent,
+    SliderComponent,
+    ContactComponent
+
 
 
   ],
@@ -34,8 +49,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserModule,
     AppRoutingModule,
     CommonModule,
-    SharedModule, 
-    HomeModule,
+  
+    // HomeModule,
     OurServicesModule,
     ContactModule,
     HttpClientModule,

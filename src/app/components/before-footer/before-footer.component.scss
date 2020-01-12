@@ -1,5 +1,6 @@
 @import '../../../assets/variables.scss';
 .footer {
+    border-top: 1px solid $cool-grey;
     &__language {
         .language-box {
             background: url('../../../assets/images/Path.png') no-repeat;

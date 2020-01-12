@@ -7,34 +7,38 @@ import { SliderComponent } from './slider/slider.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { ModalComponent } from '../components/modal/modal.component';
+import { SharedModule } from '../shared/shared.module';
 
-export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
-}
+// export function HttpLoaderFactory(http: HttpClient) {
+//   return new TranslateHttpLoader(http);
+// }
 
 const COMPONENTS = [
-    HomeComponent,
-    LandingMainComponent,
-    LandingAboutUsComponent,
-    SliderComponent
+    // HomeComponent,
+    // LandingMainComponent,
+    // LandingAboutUsComponent,
+    // SliderComponent
 ]
 
 @NgModule({
   declarations: [
-    HomeComponent,
-    LandingMainComponent,
-    LandingAboutUsComponent,
-    SliderComponent
+    // HomeComponent,
+    // LandingMainComponent,
+    // LandingAboutUsComponent,
+    // SliderComponent,
+    
   ],
   imports: [
     CommonModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
+    // SharedModule,
+    // TranslateModule.forRoot({
+    //   loader: {
+    //     provide: TranslateLoader,
+    //     useFactory: HttpLoaderFactory,
+    //     deps: [HttpClient]
+    //   }
+    // })
   ], 
   exports: COMPONENTS
 

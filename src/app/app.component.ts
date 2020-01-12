@@ -16,12 +16,14 @@ export class AppComponent {
     ) {
 
       translate.setDefaultLang('en'); 
+      translate.currentLang = 'en';
    
       
     }
 
     ngOnInit(): void {
-   
+      // translate.setDefaultLang('en'); 
+      
       
     }
 
@@ -29,6 +31,8 @@ export class AppComponent {
   switchLanguage(language: string) {
     this.translate.use(language);
     this.toggleLanguage(); 
+    console.log(this.translate);
+    
   }
 
   toggleLanguage() {

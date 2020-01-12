@@ -9,8 +9,13 @@
 
     "buttons": {
         "See our services": "See our services",
-        "Submit": "Submit"
+        "Submit": "Submit",
+        "Choose Plan": "Choose Plan",
+        "lets-talk": "Lets Talk"
     }, 
+
+
+
 
     "Landing-main" : {
         "Do you want to": "Do you want to",
@@ -18,10 +23,47 @@
 
     },
 
+    "Landing-about-us": {
+        "main-title": "What we do, so you succeed ?", 
+        "tit-1": "User Experience Design", 
+        "des-1": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!",
+        "tit-2": "Custom Web Development",
+        "des-2": "We create the good-looking and functional websites using the latest and greatest industry technologies and approaches.Whatever your business is, Webuko can create a stunning and intuitive website that will impress your customers and attract new ones. Moreover, your site will be created using best practices for search engines.",
+        "tit-3": "Hybrid Applications", 
+        "des-3": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "tit-4": "SEO Optimization",
+        "des-4": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "tit-5": "Manage your Social-Network",
+        "des-5": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!"
+    },
+
+    "Landing-packages": {
+        "main-tit": "Interested ? Choose your package", 
+        "main-des":  "They are people and organizations with ambitious missions. They want to unleash the power of software for their cause or business. We help them envisage, design, and deliver.", 
+        "tit-1": "Starter",
+        "tit-2": "Professional", 
+        "tit-3": "Premium"
+    },
+
+
+
+    "About-us": {
+        "main-tit": "We make the world better!", 
+        "main-des": "We build top-notch web & mobile solutions using the latest technology and our superior expertise to enhance your business growth.",
+        "about-us": "About Us", 
+        "about-us-des": "We are a startap team of talented professionals. We are technology maniacs and always work with proven stack of technologies. During last 5 years we worked exclusively in MEAN stack and gained a tremendous amount of experience in these technologies. We don’t stop learning: we use new technologies as a learning tool, not just because it's 'just a cool new thing'",
+        "Want to work with us ?": "Want to work with us ?"
+
+    }, 
+
+
+
+
+
     "Contact" : {
         "How can we help?" : "How can we help?", 
-        "Fill the form below to discuss how Webuko can help with your ambitious software needs!": "How can we help?",
-        "Let's Talk": "Let's Talk",
+        "main-des": "Fill the form below to discuss how Webuko can help with your ambitious software needs!",
+        "Lets-Talk": "Let's Talk",
         "Contact Email": "Contact Email",
         "Contact Phones": "Contact Phones", 
          "Location": "Location",

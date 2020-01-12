@@ -5,16 +5,15 @@
                 <div class="col-md-3">
                     <img src="assets/images/logo1.png" alt="">
                 </div>
-                <div class="col-md-9 d-flex justify-content-end mt-3">
+                <div class="col-md-9 d-flex justify-content-end align-items-center mt-3">
                     <app-top-navigation></app-top-navigation>
-                    <!-- <div class="btn-main"> -->
+                    <div class="d-flex align-items-center">
                         <span *ngIf="isGeorgian" (click)="switchLanguage('en')">ENG</span>
                         <span *ngIf="!isGeorgian" (click)="switchLanguage('ka')">GEO</span>
-                    <!-- </div> -->
+                    </div>   
                 </div>
             </div>
-            <div class="content w-100" [ngClass]="{'geo-text-size': isGeorgian}" >
-                <!-- <app-home></app-home> -->
+            <div class="content w-100" [ngClass]="{'font-geo': isGeorgian}" >
                 <router-outlet></router-outlet>
                 <app-before-footer></app-before-footer>
             </div>

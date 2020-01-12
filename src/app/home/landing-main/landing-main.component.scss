@@ -50,8 +50,9 @@
     }
 }
 
-.geo-fontsize {
-    font-size: 2rem; 
+.geo-font {
+    font-size: 2rem !important; 
+    color: red;
 }
 
 @-webkit-keyframes mover {

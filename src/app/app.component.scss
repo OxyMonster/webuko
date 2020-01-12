@@ -3,6 +3,7 @@
 .app {
     background-color: $main-black;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem !important;
 
 
     width: 100%;
@@ -20,13 +21,13 @@
 
 .font-geo {
     font-family: "BPG Mrgvlovani Caps", sans-serif !important;
+    font-size: .9rem !important;
 }; 
 
-.geo-text-size { 
-    font-size: .9rem !important; 
-}
+
 
 span {
+    font-size: 1rem !important;
     color: rgb(8, 192, 167);
     font-weight: bold;
     cursor: pointer;

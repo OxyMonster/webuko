@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OurServicesComponent } from './our-services.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -9,7 +10,8 @@ import { OurServicesComponent } from './our-services.component';
     OurServicesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ]
 })
 export class OurServicesModule { }
