@@ -3,12 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-// import { SharedModule } from './shared/shared.module';
 import { CommonModule } from '@angular/common';
 import { HomeModule } from './home/home.module';
 import { BeforeFooterComponent } from './components/before-footer/before-footer.component';
-import { OurServicesModule } from './our-services/our-services.module';
-import { ContactModule } from './contact/contact.module';
 import { OrderComponent } from './order/order.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
@@ -22,6 +19,7 @@ import { LandingMainComponent } from './home/landing-main/landing-main.component
 import { LandingAboutUsComponent } from './home/landing-about-us/landing-about-us.component';
 import { SliderComponent } from './home/slider/slider.component';
 import { ContactComponent } from './contact/contact.component';
+import { OurServicesComponent } from './our-services/our-services.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -40,19 +38,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     LandingMainComponent,
     LandingAboutUsComponent,
     SliderComponent,
-    ContactComponent
-
+    ContactComponent, 
+    OurServicesComponent
 
 
   ],
   imports: [
-    BrowserModule,
+    BrowserModule,    
     AppRoutingModule,
     CommonModule,
-  
-    // HomeModule,
-    OurServicesModule,
-    ContactModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

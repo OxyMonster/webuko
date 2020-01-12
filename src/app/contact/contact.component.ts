@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact',
@@ -11,7 +10,6 @@ export class ContactComponent implements OnInit {
   isSubmited: boolean = false; 
 
   constructor(
-    private translate: TranslateService
   ) { }
 
   ngOnInit() {
