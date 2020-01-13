@@ -17,7 +17,7 @@ export class OurServicesComponent implements OnInit {
   }
 
   onNavigate() {
-    this.router.navigateByUrl('/contact');
+    this.router.navigateByUrl('/order');
   }
 
 }

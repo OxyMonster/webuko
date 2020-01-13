@@ -9,11 +9,11 @@
 
     "buttons": {
         "See our services": "იხილეთ ჩვენი სერვისები",
-        "Choose Plan": "იხილე ვრცლად",
+        "Choose Plan": "იხილეთ ვრცლად",
         "lets-talk": "დაკავშირება",
         "submit": "გაგზავნა",
         "order": "შეკვეთა",
-        "talk-with-us": "დაგვიკავშირდით"
+        "see-packages": "იხილეთ პაკეტები"
 
     }, 
 
@@ -108,7 +108,7 @@
 
 
     "About-us": {
-        "main-tit": "ჩვენ ვებ სამყაროს ვქმნით უკეთესს !", 
+        "main-tit": "ჩვენ, ვებ სამყაროს ვქმნით უკეთესს !", 
         "main-des": "We build top-notch web & mobile solutions using the latest technology and our superior expertise to enhance your business growth.",
         "about-us": "ჩვენს შესახებ", 
         "about-us-des": "We are a startap team of talented professionals. We are technology maniacs and always work with proven stack of technologies. During last 5 years we worked exclusively in MEAN stack and gained a tremendous amount of experience in these technologies. We don’t stop learning: we use new technologies as a learning tool, not just because it's 'just a cool new thing'",

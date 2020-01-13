@@ -11,6 +11,7 @@ export class SliderComponent implements OnInit {
 
   isHome: boolean = false; 
 
+  
   constructor(
     private router: Router,
     private modalService: NgbModal
@@ -27,8 +28,8 @@ export class SliderComponent implements OnInit {
     this.router.navigateByUrl('order'); 
   }
 
-  openModal() {
-    // this,this.modalService.open(); 
+  openModal(content) {
+    this,this.modalService.open("modal works")
   }
 
 }

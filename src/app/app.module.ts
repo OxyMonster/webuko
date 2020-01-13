@@ -19,6 +19,8 @@ import { LandingAboutUsComponent } from './home/landing-about-us/landing-about-u
 import { SliderComponent } from './home/slider/slider.component';
 import { ContactComponent } from './contact/contact.component';
 import { OurServicesComponent } from './our-services/our-services.component';
+import { ModalComponent } from './components/modal/modal.component';
+import { NgbModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -38,15 +40,17 @@ export function HttpLoaderFactory(http: HttpClient) {
     LandingAboutUsComponent,
     SliderComponent,
     ContactComponent, 
-    OurServicesComponent
+    OurServicesComponent, 
+    ModalComponent,
 
 
   ],
   imports: [
     BrowserModule,    
     AppRoutingModule,
-    CommonModule,
+    CommonModule, 
     HttpClientModule,
+    NgbModule, 
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
