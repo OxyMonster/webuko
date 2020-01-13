@@ -18,8 +18,7 @@ export class LandingMainComponent implements OnInit {
 
   ngOnInit() {
 
-    console.log(this.translate.currentLang);
-    // this.toggleLanguage();
+    
   }
 
   ngDoCheck(): void {
@@ -31,10 +30,10 @@ export class LandingMainComponent implements OnInit {
   onNavigate() {
     this.router.navigateByUrl('/services'); 
   };
-
+  
   toggleLanguage() {
     this.translate.currentLang === 'en' ? this.isGeorgian = false : this.isGeorgian = true; 
-    console.log("changed");
+
     
   }
 

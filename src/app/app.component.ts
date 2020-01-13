@@ -31,7 +31,6 @@ export class AppComponent {
   switchLanguage(language: string) {
     this.translate.use(language);
     this.toggleLanguage(); 
-    console.log(this.translate);
     
   }
 

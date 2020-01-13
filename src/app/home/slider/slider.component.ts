@@ -18,8 +18,7 @@ export class SliderComponent implements OnInit {
 
   ngOnInit() {
     this.router.url === '/home' ? this.isHome = true : this.isHome = false; 
-    console.log(this.router.url);
-    console.log(this.isHome);
+
     
     
   }
