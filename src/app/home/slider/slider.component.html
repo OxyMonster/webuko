@@ -17,8 +17,41 @@
         <div class="slider__box__content__avatar mt-2 mb-2">
             <img src="assets/images/ilustrations/starter.svg" alt="">
         </div>
+        <div class="mt-2 mb-2" *ngIf="!isHome">
+            <ul>
+                <li>
+                    გვერდების რაოდენობა: შეუზღუდავი
+                </li>
+                <li>
+                    სამართავი პანელი
+                </li>
+                <li>
+                    მობილური ვერსია (responsive)
+                </li>
+                <li>
+                    ვიზიტორების სტატისტიკა
+                </li>
+                <li>
+                    სოციალური ქსელების ინტეგრაცია
+                </li>
+                <li>
+                    Slideshow - სურათების სლაიდშოუ
+                </li>
+                <li>
+                    ძიების მოდული
+                </li>
+                <li>
+                    ონლაინ დაჯავშნა/ჩაწერა
+                </li>
+                <li>
+                    კლიენტების მოდული
+                </li>
+            </ul>
+        </div>
         <div class="slider__box__content__description d-flex justify-content-center">
-            <button class="btn-main"> {{ 'buttons.Choose Plan' | translate }} </button>
+            <button class="btn-main" *ngIf="isHome"> {{ 'buttons.Choose Plan' | translate }} </button>
+            <button class="btn-main" *ngIf="!isHome"> {{ 'buttons.order' | translate }} </button>
+          
         </div>
     </div>
     </div>
@@ -30,8 +63,41 @@
         <div class="slider__box__content__avatar mt-2 mb-2">
             <img src="assets/images/ilustrations/rocket.svg" alt="">
         </div>
+        <div class="mt-2 mb-2" *ngIf="!isHome">
+            <ul>
+                <li>
+                    გვერდების რაოდენობა: შეუზღუდავი
+                </li>
+                <li>
+                    სამართავი პანელი
+                </li>
+                <li>
+                    მობილური ვერსია (responsive)
+                </li>
+                <li>
+                    ვიზიტორების სტატისტიკა
+                </li>
+                <li>
+                    სოციალური ქსელების ინტეგრაცია
+                </li>
+                <li>
+                    Slideshow - სურათების სლაიდშოუ
+                </li>
+                <li>
+                    ძიების მოდული
+                </li>
+                <li>
+                    ონლაინ დაჯავშნა/ჩაწერა
+                </li>
+                <li>
+                    კლიენტების მოდული
+                </li>
+            </ul>
+        </div>
         <div class="slider__box__content__description d-flex justify-content-center">
-            <button class="btn-main"> {{ 'buttons.Choose Plan' | translate | translate }} </button>
+            <button class="btn-main" *ngIf="isHome"> {{ 'buttons.Choose Plan' | translate }} </button>
+            <button class="btn-main" *ngIf="!isHome"> {{ 'buttons.order' | translate }} </button>
+
         </div>
     </div>
     </div>
@@ -43,9 +109,47 @@
         <div class="slider__box__content__avatar mt-2 mb-2">
             <img src="assets/images/ilustrations/planet.svg" alt="">
         </div>
-        <div class="slider__box__content__description d-flex justify-content-center">
-            <button class="btn-main" (click)="openModal()"> {{ 'buttons.Choose Plan' | translate }} </button>
+
+        <div class="mt-2 mb-2" *ngIf="!isHome">
+            <ul>
+                <li>
+                    გვერდების რაოდენობა: შეუზღუდავი
+                </li>
+                <li>
+                    სამართავი პანელი
+                </li>
+                <li>
+                    მობილური ვერსია (responsive)
+                </li>
+                <li>
+                    ვიზიტორების სტატისტიკა
+                </li>
+                <li>
+                    სოციალური ქსელების ინტეგრაცია
+                </li>
+                <li>
+                    Slideshow - სურათების სლაიდშოუ
+                </li>
+                <li>
+                    ძიების მოდული
+                </li>
+                <li>
+                    ონლაინ დაჯავშნა/ჩაწერა
+                </li>
+                <li>
+                    კლიენტების მოდული
+                </li>
+            </ul>
         </div>
+
+        <div class="slider__box__content__description d-flex justify-content-center">
+            <button class="btn-main" *ngIf="isHome" (click)="openModal()"> {{ 'buttons.Choose Plan' | translate }} </button>
+            <button class="btn-main" *ngIf="!isHome"> {{ 'buttons.order' | translate }} </button>
+           
+
+        </div>
+
+        
         
     </div>
     </div>

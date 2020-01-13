@@ -9,9 +9,10 @@
 
     "buttons": {
         "See our services": "იხილეთ ჩვენი სერვისები",
-        "Choose Plan": "არჩევა",
+        "Choose Plan": "იხილე ვრცლად",
         "lets-talk": "დაკავშირება",
-        "submit": "გაგზავნა"
+        "submit": "გაგზავნა",
+        "order": "შეკვეთა"
 
     }, 
 
@@ -122,6 +123,7 @@
         "Contact Email": "იმეილი",
         "Contact Phones": "ტელეფონები", 
          "Location": "ლოკაცია",
+         "Social": "სოციალური ქსელები",
          "We'd love to hear from you!": "We'd love to hear from you!", 
          "Tbilisi": "თბილისი",
          "Georgia": "საქართველო"

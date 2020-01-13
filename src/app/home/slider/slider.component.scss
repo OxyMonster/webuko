@@ -48,9 +48,25 @@
                 p {
                     color: $cool-grey;
                 }
+                button {
+                    letter-spacing: .2rem;
+                }
             }
         }
 
+    }
+}
+
+ul {
+    padding: 0;
+    padding-top: 1rem;   
+    width: 100%;
+    li {
+        color: $light-grey;
+        list-style: none;
+        white-space: nowrap;
+        font-size: .875rem;
+        line-height: 1.5rem;
     }
 }
 

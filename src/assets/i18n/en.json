@@ -10,9 +10,11 @@
     "buttons": {
         "See our services": "See our services",
         "Submit": "Submit",
-        "Choose Plan": "Choose Plan",
+        "Choose Plan": "See Details",
         "lets-talk": "Lets Talk",
-        "submit": "Submit"
+        "submit": "Submit",
+        "order": "Order"
+
     }, 
 
 
@@ -122,6 +124,7 @@
         "Lets-Talk": "Let's Talk",
         "Contact Email": "Contact Email",
         "Contact Phones": "Contact Phones", 
+        "Social": "Social Networks",
          "Location": "Location",
          "We'd love to hear from you!": "We'd love to hear from you!", 
          "Tbilisi": "Tbilisi",

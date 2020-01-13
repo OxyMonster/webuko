@@ -50,3 +50,17 @@
         }
     }
 }
+
+.social-box {
+    
+    i {
+        color: $grey;
+        font-size: 1.5rem;
+        cursor: pointer;
+
+        &:hover { 
+            transition: .4s;
+            color: $white;
+        }
+    }
+}
