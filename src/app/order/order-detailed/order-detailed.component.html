@@ -1,0 +1,99 @@
+<div class="row">
+    <div class="dark-content w-100 p-5">
+        <div class="slider__title dark-content row col-12  align-items-center mt-4 p-3">
+            <div class="col-12 d-flex justify-content-center mt-4">
+                <h4 *ngIf="isStarter" class="mr-3">Our Starter package is easy-to-use and 
+                    provides your attendees a seamless, professional experience: A simple 
+                    and secure check-out from any device as well as mobile apps that make 
+                    check-in quick and easy.
+                </h4>
+                <h4 *ngIf="isProffesional" class="mr-3">Proffesional package is event key to 
+                    your business! Do you want to grow efficiently 
+                    while nurturing deeper relationships with your 
+                    customers? The Professional package helps you grow
+                     your events, simplify your operations, and build your brand.
+                </h4>
+                <h4 *ngIf="isPremium" class="mr-3">Premium package is the complexity of your
+                    large-scale events, leverage the expertise of our battle-tested teams, and 
+                    grow your business at scale. We'll be your trusted partner every step of the way.
+                    Interested? To tailor a custom package perfect for your event, contact the webuko 
+                    sales team or get in touch on our website.
+                </h4>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <div class="slider__box col-lg-7">
+    <div class="slider__box__content">
+        <div class="slider__box__content__title">
+            <h4 *ngIf="isStarter">{{ 'Landing-packages.tit-1' | translate }}</h4>
+            <h4 *ngIf="isProffesional">{{ 'Landing-packages.tit-2' | translate }}</h4>
+            <h4 *ngIf="isPremium"> {{ 'Landing-packages.tit-3' | translate }} </h4>
+        </div>
+        <div class="slider__box__content__avatar mt-2 mb-2">
+            <img *ngIf="isPremium" src="assets/images/ilustrations/planet.svg" alt="">
+            <img *ngIf="isProffesional" src="assets/images/ilustrations/rocket.svg" alt="">
+            <img *ngIf="isStarter" src="assets/images/ilustrations/starter.svg" alt="">
+
+
+            
+        </div>
+
+        <div class="mt-2 mb-2">
+            <ul>
+                <li>
+                    გვერდების რაოდენობა: შეუზღუდავი
+                </li>
+                <li>
+                    სამართავი პანელი
+                </li>
+                <li>
+                    მობილური ვერსია (responsive)
+                </li>
+                <li>
+                    ვიზიტორების სტატისტიკა
+                </li>
+                <li>
+                    სოციალური ქსელების ინტეგრაცია
+                </li>
+                <li>
+                    Slideshow - სურათების სლაიდშოუ
+                </li>
+                <li>
+                    ძიების მოდული
+                </li>
+                <li>
+                    ონლაინ დაჯავშნა/ჩაწერა
+                </li>
+                <li>
+                    კლიენტების მოდული
+                </li>
+            </ul>
+        </div>
+
+        <div class="slider__box__content__description d-flex justify-content-center">
+            <a href="" [routerLink]="['/order/premium']">
+                <button class="btn-main" *ngIf="isHome"  >
+                    {{ 'buttons.Choose Plan' | translate }} 
+                </button>
+            </a>
+            <button class="btn-main" *ngIf="!isHome" (click)="openModal()"> {{ 'buttons.order' | translate }} </button>
+        </div>
+    </div>
+  </div>
+            
+        </div>
+        <div class="slider__title dark-content row col-12  align-items-center mt-5 pb-5">
+            <div class="col-12 d-flex justify-content-center mt-4">
+                <h4 class="mr-3">Interested in another package ? </h4>
+            </div>
+            <div class="col-12 mt-3 d-flex justify-content-center">
+                <a [routerLink]="['/order']">
+                    <button class="btn-main">
+                        See All Our Packages 
+                    </button>
+                </a>
+            </div>
+        </div>
+        
+ </div>
+</div>

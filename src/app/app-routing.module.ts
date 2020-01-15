@@ -6,6 +6,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { OrderComponent } from './order/order.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
+import { OrderDetailedComponent } from './order/order-detailed/order-detailed.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'order', component: OrderComponent},
+  { path: 'order/:id', component: OrderDetailedComponent},
   { path: '404', component: NotfoundComponent },
   { path: '**', redirectTo: '/404' }
 

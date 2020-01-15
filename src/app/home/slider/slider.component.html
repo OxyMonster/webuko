@@ -49,7 +49,11 @@
             </ul>
         </div>
         <div class="slider__box__content__description d-flex justify-content-center">
-            <button class="btn-main" *ngIf="isHome"> {{ 'buttons.Choose Plan' | translate }} </button>
+            <a href="" [routerLink]="['/order/starter']">
+                <button class="btn-main" *ngIf="isHome"> 
+                {{ 'buttons.Choose Plan' | translate }} 
+                </button>
+            </a>     
             <button class="btn-main" *ngIf="!isHome"> {{ 'buttons.order' | translate }} </button>
           
         </div>
@@ -95,7 +99,11 @@
             </ul>
         </div>
         <div class="slider__box__content__description d-flex justify-content-center">
-            <button class="btn-main" *ngIf="isHome"> {{ 'buttons.Choose Plan' | translate }} </button>
+            <a href="" [routerLink]="['/order/professional']">
+                <button class="btn-main" *ngIf="isHome">
+                {{ 'buttons.Choose Plan' | translate }} 
+                </button>
+            </a> 
             <button class="btn-main" *ngIf="!isHome"> {{ 'buttons.order' | translate }} </button>
 
         </div>
@@ -143,7 +151,11 @@
         </div>
 
         <div class="slider__box__content__description d-flex justify-content-center">
-            <button class="btn-main" *ngIf="isHome" > {{ 'buttons.Choose Plan' | translate }} </button>
+            <a href="" [routerLink]="['/order/premium']">
+                <button class="btn-main" *ngIf="isHome"  >
+                    {{ 'buttons.Choose Plan' | translate }} 
+                </button>
+            </a>
             <button class="btn-main" *ngIf="!isHome" (click)="openModal()"> {{ 'buttons.order' | translate }} </button>
         </div>
 

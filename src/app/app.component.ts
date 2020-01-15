@@ -38,4 +38,10 @@ export class AppComponent {
     this.isGeorgian === false ? this.isGeorgian = true : this.isGeorgian = false; 
     
   }
+
+  onActivate(event) {
+    window.scroll(0,0);
+    //or document.body.scrollTop = 0;
+    //or document.querySelector('body').scrollTo(0,0
+}
 }

@@ -1,0 +1,104 @@
+@import '../../../assets/variables.scss'; 
+
+.slider {
+    position: relative;
+    // border-bottom: 1px solid $dark-grey;
+
+    &__title {
+        // text-align: center;
+        h4 {
+            color: $grey;
+            font-size: 1.2rem;
+            line-height: 2rem;
+            // white-space: nowrap;
+        }
+        a {
+            color: $red;
+            cursor: pointer;
+            // font-weight: bold;
+            text-decoration: none;
+        }
+    }
+    &__box {
+        div {
+            // background-color: $cool-grey;
+            background: #102131;
+            border-radius: .5rem;
+            padding: 1rem;
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.489159);
+
+        }
+
+        &__content {
+            &__avatar {
+                height: 15rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: .5rem;
+                }
+            }
+            &__title {
+                text-align: center;
+                h4 {
+                    font-size: 1.6rem;
+                    color: $white;
+                    text-shadow: 0px 15px 30px rgba(0, 0, 0, 0.489159);
+                    letter-spacing: .2rem;
+                }
+               
+            }
+
+            &__description {
+                p {
+                    color: $cool-grey;
+                }
+                button {
+                    letter-spacing: .1rem;
+                }
+            }
+        }
+
+    }
+}
+
+ul {
+    padding: 0;
+    padding-top: 1rem;   
+    width: 100%;
+    text-align: center;
+    li {
+        color: $light-grey;
+        list-style: none;
+        white-space: nowrap;
+        font-size: .875rem;
+        line-height: 1.5rem;
+
+        @media (max-width: 1200px) {
+            white-space: initial;
+
+        }
+    }
+}
+
+.right-arrow {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    color: $light-grey;
+}
+
+.left-arrow {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: rotate(180deg);
+    font-size: 2rem;
+    cursor: pointer;
+    color: $light-grey;
+
+
+}
+

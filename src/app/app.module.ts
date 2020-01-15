@@ -21,6 +21,7 @@ import { ContactComponent } from './contact/contact.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { NgbModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { OrderDetailedComponent } from './order/order-detailed/order-detailed.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -41,7 +42,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     SliderComponent,
     ContactComponent, 
     OurServicesComponent, 
-    ModalComponent,
+    ModalComponent, OrderDetailedComponent,
 
 
   ],

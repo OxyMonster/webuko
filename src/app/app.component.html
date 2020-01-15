@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="content w-100" [ngClass]="{'font-geo': isGeorgian}" >
-                <router-outlet></router-outlet>
+                <router-outlet (activate)="onActivate($event)"></router-outlet>
                 <app-before-footer></app-before-footer>
             </div>
         </div>
