@@ -22,6 +22,7 @@ import { OurServicesComponent } from './our-services/our-services.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { NgbModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { OrderDetailedComponent } from './order/order-detailed/order-detailed.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -51,6 +52,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppRoutingModule,
     CommonModule, 
     HttpClientModule,
+    ReactiveFormsModule, 
     NgbModule, 
     TranslateModule.forRoot({
       loader: {
