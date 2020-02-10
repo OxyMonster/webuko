@@ -4,20 +4,20 @@ const cors = require('cors');
 const mongoose = require('mongoose'); 
 
 //  * * * Connect to mongoDB * * * *
-const mongoURL = 'mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false'; 
+// const mongoURL = 'mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false'; 
 
-mongoose.connect(mongoURL, {
-            useNewUrlParser: true, 
-            useUnifiedTopology: true,
-        })
-        .then( ()=> {
-            console.log('Connected to db');
+// mongoose.connect(mongoURL, {
+//             useNewUrlParser: true, 
+//             useUnifiedTopology: true,
+//         })
+//         .then( ()=> {
+//             console.log('Connected to db');
             
-        })
-        .catch(err => {
-            console.log(err);
+//         })
+//         .catch(err => {
+//             console.log(err);
             
-        }); 
+//         }); 
 
 
 // * * *   MiddleWare for Cors-Origin * * * 
@@ -28,11 +28,18 @@ const contact  = require('./routes/contact');
 
 app.use(contact); 
 
+app.use( express.static('client/dist/webuko') ); 
+app.get( '*',  (req, res) => {
+    res.sendFile(path.join(__dirname, 'client', 'dist', 'webuko', 'index.html')); 
+}); 
+
+
+const port  = process.env.PORT || 8080; 
 
 
 // * * * Listen to server * * *
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Listening to port 3000');
     
 }); 
