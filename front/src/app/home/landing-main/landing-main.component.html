@@ -1,0 +1,37 @@
+<div class="content row d-flex justify-content-between align-items-center">
+    <div class="content__text col-md-7">
+            <div class="col-12">
+                <h4 [ngClass]="{'geo-font': isGeorgian}">
+                    {{ 'Landing-main.Do you want to' | translate }} <br>
+                    {{ 'Landing-main.impress your clients ?' | translate }}
+
+                </h4>
+            </div>
+            <div class="content__text__button col-12 d-flex mt-4">
+                <button class="btn-main" (click)="onNavigate()"> {{ 'buttons.See our services' | translate }} </button>
+            </div>
+    </div>
+    <div class="content__img col-md-5">  
+       <img src="/assets/images/Background.svg" alt="">
+    </div>
+    <div class="row content__social col-12 mt-5 d-flex align-items-center justify-content-between">
+        <div class="col-lg-2 mt-3 mb-3 d-flex justify-content-center">
+            <img src="/assets/images/google.svg" alt="google">
+        </div>
+        <div class="col-lg-2 mt-3 mb-3 d-flex justify-content-center">
+            <img src="/assets/images/fb.svg" alt="fb">
+        </div>
+        <div class="col-lg-2 mt-3 mb-3 d-flex justify-content-center">
+            <img src="/assets/images/slack.svg" alt="slack">
+        </div>
+        <div class="col-lg-2 mt-3 mb-3 d-flex justify-content-center">
+            <img src="/assets/images/viber.svg" alt="viber">
+        </div>
+        <div class="col-lg-2 mt-3 mb-3 d-flex justify-content-center">
+            <img src="/assets/images/behance.svg" alt="behance">
+        </div>
+        <div class="col-lg-2 mt-3 mb-3 d-flex justify-content-center">
+            <img src="/assets/images/dribbble.svg" alt="">
+        </div>
+    </div>
+</div>

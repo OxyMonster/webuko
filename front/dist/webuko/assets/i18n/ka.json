@@ -1,0 +1,133 @@
+{
+    "navigation" : {
+        "Home": "მთავარი",
+        "Services": "სერვისები ",
+        "About us": "ჩვენს შესახებ",
+        "Order": "შეკვეთა",
+        "Contact": "კონტაქტი"
+    },
+
+    "buttons": {
+        "See our services": "იხილეთ ჩვენი სერვისები",
+        "Choose Plan": "იხილეთ ვრცლად",
+        "lets-talk": "დაკავშირება",
+        "submit": "გაგზავნა",
+        "order": "შეკვეთა",
+        "see-packages": "იხილეთ პაკეტები"
+
+    }, 
+
+
+
+
+    "Landing-main" : {
+        "Do you want to": "გსურთ მოახდინოთ" ,
+        "impress your clients ?": " შთაბეჭდილება თქვენს კლიენტებზე ?"
+
+    },
+
+    "Landing-about-us": {
+        "main-title": "რას ვაკეთებთ ჩვენ, იმისათვის რომ თქვენ წარმატებას მიაღწიოთ ?", 
+        "tit-1": "დიზაინი (UI/UX)", 
+        "des-1": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!",
+        "tit-2": "დეველოპმენტი",
+        "des-2": "We create the good-looking and functional websites using the latest and greatest industry technologies and approaches.Whatever your business is, Webuko can create a stunning and intuitive website that will impress your customers and attract new ones. Moreover, your site will be created using best practices for search engines.",
+        "tit-3": "ჰიბრიდული აპლიკაციები", 
+        "des-3": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "tit-4": "საძიებო სისტემებთან ოპტიმიზაცია (Seo)",
+        "des-4": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "tit-5": "სოციალური ქსელების ადმინისტრაცია",
+        "des-5": "Our UI/UX designers produce the most attractive and polished designs for your product you could ever dream of. It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!"
+    },
+
+    "Landing-packages": {
+        "main-tit": "დაინტერესდით ? გთხოვთ აირჩიოთ სასურველი პაკეტი", 
+        "main-des":  "They are people and organizations with ambitious missions. They want to unleash the power of software for their cause or business. We help them envisage, design, and deliver.", 
+        "tit-1": "მინი",
+        "tit-2": "პროფესიონალი", 
+        "tit-3": "პრემიუმი"
+    },
+
+
+
+    "Services" :  {
+        "main-title" : "დიდი გამოწვევები მოითხოვს დიდ იდეებს", 
+        "tit-1": "დიზაინი (UI/UX)", 
+        "des-1": "It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "sub-1-tit-1": "Flexible", 
+        "sub-1-tit-2": "Users won't leave",
+        "sub-1-tit-3": "Make it easy",
+        "sub-1-tit-4": "Human-centered design", 
+        "sub-1-des-1": "We make responsive, cross-browser, and technically advanced websites.",
+        "sub-1-des-2": "Engaging content is not enough, but the convenient organization and caring about the reader will do the magic.",
+        "sub-1-des-3":"Let your users enjoy an intuitive website navigation experience, with easy access to any page.", 
+        "sub-1-des-4": "We're all about UX! We know the fastest and most intuitive way of giving a user the answer he is looking for.",
+        "tit-2": "დეველოპმენტი (Frontend,  Backend)", 
+        "des-2": "It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "sub-2-tit-1": "Flexible", 
+        "sub-2-tit-2": "Users won't leave",
+        "sub-2-tit-3": "Make it easy",
+        "sub-2-tit-4": "Human-centered design", 
+        "sub-2-des-1": "We make responsive, cross-browser, and technically advanced websites.",
+        "sub-2-des-2": "Engaging content is not enough, but the convenient organization and caring about the reader will do the magic.",
+        "sub-2-des-3":"Let your users enjoy an intuitive website navigation experience, with easy access to any page.", 
+        "sub-2-des-4": "We're all about UX! We know the fastest and most intuitive way of giving a user the answer he is looking for.",
+        "tit-3": "საძიებო სისტემებთან ოპტიმიზაცია (Seo)", 
+        "des-3": "It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "sub-3-tit-1": "Flexible", 
+        "sub-3-tit-2": "Users won't leave",
+        "sub-3-tit-3": "Make it easy",
+        "sub-3-tit-4": "Human-centered design", 
+        "sub-3-des-1": "We make responsive, cross-browser, and technically advanced websites.",
+        "sub-3-des-2": "Engaging content is not enough, but the convenient organization and caring about the reader will do the magic.",
+        "sub-3-des-3":"Let your users enjoy an intuitive website navigation experience, with easy access to any page.", 
+        "sub-3-des-4": "We're all about UX! We know the fastest and most intuitive way of giving a user the answer he is looking for.", 
+        "tit-4": "ჰიბრიდული აპლიკაციები და NodeJs", 
+        "des-4": "It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "sub-4-tit-1": "Flexible", 
+        "sub-4-tit-2": "Users won't leave",
+        "sub-4-tit-3": "Make it easy",
+        "sub-4-tit-4": "Human-centered design", 
+        "sub-4-des-1": "We make responsive, cross-browser, and technically advanced websites.",
+        "sub-4-des-2": "Engaging content is not enough, but the convenient organization and caring about the reader will do the magic.",
+        "sub-4-des-3":"Let your users enjoy an intuitive website navigation experience, with easy access to any page.", 
+        "sub-4-des-4": "We're all about UX! We know the fastest and most intuitive way of giving a user the answer he is looking for.", 
+        "tit-5": "სოციალური ქსელების ადმინისტრაცია", 
+        "des-5": "It's not just enough to develop websites that only look good, but it's essential to make them human-friendly, make them work on all browsers, make them accessibility-friendly and viewable on tablets and mobile devices of all sorts. That 's what we do!", 
+        "sub-5-tit-1": "Flexible", 
+        "sub-5-tit-2": "Users won't leave",
+        "sub-5-tit-3": "Make it easy",
+        "sub-5-tit-4": "Human-centered design", 
+        "sub-5-des-1": "We make responsive, cross-browser, and technically advanced websites.",
+        "sub-5-des-2": "Engaging content is not enough, but the convenient organization and caring about the reader will do the magic.",
+        "sub-5-des-3":"Let your users enjoy an intuitive website navigation experience, with easy access to any page.", 
+        "sub-5-des-4": "We're all about UX! We know the fastest and most intuitive way of giving a user the answer he is looking for."
+    }, 
+
+
+
+
+    "About-us": {
+        "main-tit": "ჩვენ, ვებ სამყაროს ვქმნით უკეთესს !", 
+        "main-des": "We build top-notch web & mobile solutions using the latest technology and our superior expertise to enhance your business growth.",
+        "about-us": "ჩვენს შესახებ", 
+        "about-us-des": "We are a startap team of talented professionals. We are technology maniacs and always work with proven stack of technologies. During last 5 years we worked exclusively in MEAN stack and gained a tremendous amount of experience in these technologies. We don’t stop learning: we use new technologies as a learning tool, not just because it's 'just a cool new thing'",
+        "Want to work with us ?": "გახდით ჩვენიანი   "
+
+    }, 
+
+
+    "Contact" : {
+        "How can we help?" : "რით შეგვიძლია დაგეხმაროთ ?", 
+        "main-des": "Fill the form below to discuss how Webuko can help with your ambitious software needs!",
+        "Lets-Talk": "საკონტაქტო",
+        "Contact Email": "იმეილი",
+        "Contact Phones": "ტელეფონები", 
+         "Location": "ლოკაცია",
+         "Social": "სოციალური ქსელები",
+         "We'd love to hear from you!": "We'd love to hear from you!", 
+         "Tbilisi": "თბილისი",
+         "Georgia": "საქართველო"
+
+    }
+}
