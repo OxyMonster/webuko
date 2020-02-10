@@ -8,9 +8,11 @@ import { Router } from '@angular/router';
 })
 export class OrderDetailedComponent implements OnInit {
 
+  isHome: boolean = false; 
   isStarter: boolean = false; 
   isProffesional: boolean = false; 
   isPremium: boolean = false; 
+
 
   constructor(
     private router: Router
@@ -21,6 +23,9 @@ export class OrderDetailedComponent implements OnInit {
     this.router.url === '/order/starter' ? this.isStarter = true : false;
     this.router.url === '/order/premium' ? this.isPremium = true : false;
     this.router.url === '/order/professional' ? this.isProffesional = true : false;
+
+    this.router.url === '/home' ? this.isHome = true : this.isHome = false; 
+
 
 
   }

@@ -28,7 +28,7 @@ export class SliderComponent implements OnInit {
     this.router.navigateByUrl('order'); 
   }
 
-  openModal(content) {
+  openModal() {
     this,this.modalService.open("modal works")
   }
 
