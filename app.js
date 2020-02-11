@@ -4,6 +4,7 @@ const app = express();
 const path = require('path'); 
 const cors = require('cors');
 const bodyParser = require('body-parser');  
+const compression = require('compression');
 require('dotenv').config(); 
 
 
@@ -12,6 +13,7 @@ const port  = process.env.PORT || 8081;
 
 
 app.use(cors()); 
+app.use(compression());
 app.use(bodyParser.urlencoded()); 
 app.use(bodyParser.json()) 
 
